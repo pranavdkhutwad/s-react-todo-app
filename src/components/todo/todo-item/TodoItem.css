@@ -1,0 +1,11 @@
+.high-priority {
+    border: 1px solid rgba(225, 24, 10, 0.877);
+}
+
+.medium-priority {
+    border: 1px solid rgba(120, 120, 4, 0.909);
+}
+
+.low-priority {
+    border: 1px solid rgba(11, 46, 160, 0.911);
+}
