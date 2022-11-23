@@ -72,8 +72,8 @@ function Todo() {
 
   return (
     <Fragment>
-      <TodoTestEdit />
-      {/* <TodoEdit onUpdateItem={updateTodoItem} todo={todo} show={showModal} onClose={handleModalClose} /> */}
+      {/* <TodoTestEdit /> */}
+      <TodoEdit onUpdateItem={updateTodoItem} todo={todo} show={showModal} onClose={handleModalClose} />
       <div className="row">
         <div className="col-lg-4 col-md-4">
           <TodoForm onAddTask={handleAddTask} />
